@@ -1,0 +1,18 @@
+yolo_model:
+
+  config_file:
+    name: hazmat-yolov3.cfg
+  weight_file:
+    name: 2019-03-03_hazmat-yolov3-full.weights
+  threshold:
+    value: 0.3
+  detection_classes:
+    names:
+      - oxidizer
+      - flamable-liquid
+      - organic-peroxyde
+      - non-flamable-gas
+      - combustible
+      - dangerous-when-wet
+      - radioactive
+      - explosive
